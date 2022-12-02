@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className='sticky top-5 z-50 max-w-7xl mx-auto'>
       {showMenu ? (<HamburgerMenu />) : (
-      <div className='flex justify-between items-center py-5 rounded-lg mx-6 px-3 md:px-7 bg-white/10 backdrop-blur-lg'>
+      <div className='flex justify-between items-center py-5 rounded-lg mx-4 md:mx-6 px-3 md:px-7 bg-white/10 backdrop-blur-lg'>
         <div className='flex space-x-3 items-center'>
           {/* Hamburger Menu */}
           <button onClick={() => setShowMenu(true)} className='text-white/40 hover:text-white'>
@@ -28,7 +28,7 @@ const NavBar = () => {
         </div>
 
         {/* Socials */}
-        <div className='flex space-x-3'>
+        <div className='hidden md:flex space-x-3'>
           <div className='text-white/40 hover:text-white'>
             <Link href='https://github.com/stephenfcan'>
               <AiFillGithub size={30} />
