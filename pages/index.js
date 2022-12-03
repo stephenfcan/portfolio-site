@@ -11,7 +11,7 @@ export default function Home() {
     <div className='max-w-7xl mx-auto'>
       <Head>
         <title>Stephen An</title>
-        <meta name="description" content="Stephen An Portfolio Site" />
+        <meta name="description" content="Stephen An - Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
