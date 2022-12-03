@@ -28,7 +28,7 @@ const NavBar = () => {
         </div>
 
         {/* Socials */}
-        <div className='flex space-x-1 md:space-x-3'>
+        <div className='hidden md:inline-flex space-x-3'>
           <div className='text-white/40 hover:text-white'>
             <Link href='https://github.com/stephenfcan'>
               <AiFillGithub size={30} />

@@ -25,11 +25,10 @@ export default function Home() {
         <section className='snap-start' id='portfolio'>
           <Portfolio />
         </section>
-        <section className='snap-start' id='footer'>
+        <section className='snap-end' id='footer'>
           <Footer />
         </section>
       </main>
-
     </div>
   )
 }
