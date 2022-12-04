@@ -6,8 +6,8 @@ import { useStateContext } from '../context/StateContext'
 const HamburgerMenu = () => {
   const { setShowMenu } = useStateContext();
   return (
-    <div className='w-screen min-h-screen h-full bg-white/10 backdrop-blur-lg fixed top-0 z-100 transition ease-in-out'>
-      <div>
+    <div className='w-screen min-h-screen h-full left-0 bg-white/10 backdrop-blur-lg fixed top-0 z-100 transition ease-in-out'>
+      <div className='max-w-7xl mx-auto'>
         {/* Exit Button */}
         <div className='flex justify-end m-5 text-white/40 hover:text-white'>
           <button onClick={() => setShowMenu(false)} className='flex items-center space-x-2'>

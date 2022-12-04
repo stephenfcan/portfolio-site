@@ -3,10 +3,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='pt-32 pb-7'>
-      <div className='grid grid-cols-1 md:grid-cols-3 text-white space-y-10 md:space-y-0'>
+    <div className='pb-10'>
+      <div className='grid grid-cols-1 md:grid-cols-3 text-white space-y-7 md:space-y-0'>
         {/* Socials */}
-        <div className='space-y-4'>
+        <div className='space-y-2 md:space-y-4'>
           <h1 className='text-lg font-semibold tracking-widest'>SOCIALS</h1>
           <div className='space-y-2'>
             <div>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div className='space-y-4'>
+        <div className='space-y-2 md:space-y-4'>
           <h1 className='text-lg font-semibold tracking-widest'>CONTACT</h1>
           <div>
             <Link href='mailto:stephenfcan@gmail.com'>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
 
         {/* General Info */}
-        <div className='space-y-4'>
+        <div className='space-y-2 md:space-y-4'>
           <h1 className='text-lg font-semibold tracking-widest'>GENERAL INFO</h1>
           <div className='space-y-2'>
             <p className='text-sm'>🌉 Based in: Cupertino, CA</p>

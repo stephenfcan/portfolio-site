@@ -4,6 +4,6 @@
 
 @layer components {
     .button {
-        @apply hover:opacity-60
+        @apply cursor-pointer hover:opacity-60
     }
 }
