@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const Portfolio = () => {
   return (
-    <div className='min-h-screen h-full pt-28 pb-10 md:pt-32'>
+    <div className='min-h-screen h-full pt-28 pb-20 md:pt-32'>
       <div className='text-white text-sm space-y-10'>
         <div className='space-y-2'>
           {/* ServiceNow */}
