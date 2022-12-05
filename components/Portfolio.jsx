@@ -6,18 +6,6 @@ const Portfolio = () => {
   return (
     <div className='min-h-screen h-full pt-28 pb-20 md:pt-32'>
       <div className='text-white text-sm space-y-10'>
-        <div className='space-y-2'>
-          {/* ServiceNow */}
-          <ExperienceBanner
-            date={'Jan 2023 - Present'}
-            title={'Assoc Product & Strategy Program Manager'}
-            company={'ServiceNow'}
-            link={'https://www.servicenow.com/'}
-            city={'Santa Clara'}
-          />
-
-          <p>Just started!</p>
-        </div>
 
         <div className='space-y-2'>
           {/* ServiceNow Internship */}
