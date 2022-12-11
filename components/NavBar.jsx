@@ -19,7 +19,7 @@ const NavBar = () => {
 
           {/* Name/Logo */}
           <div className='font-bold text-xl cursor-pointer'>
-            <Link href='/'>
+            <Link href='#hero'>
               <button className='text-white flex items-center space-x-2'>
                 <p>STEPHEN AN</p>
               </button>

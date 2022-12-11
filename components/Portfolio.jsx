@@ -65,7 +65,6 @@ const Portfolio = () => {
           <p>Consulted with CIOs and senior IT leaders on digital transformation and cybersecurity-related challenges to align them with appropriate research and solutions. Assisted with go-to-market strategy planning with Health & Life Sciences business development team.</p>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
