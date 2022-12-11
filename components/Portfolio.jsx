@@ -31,7 +31,7 @@ const Portfolio = () => {
             date={'Present'}
             title={'Founder'}
             company={'UNRELENTING'}
-            link={'https://www.unrelenting.com/'}
+            link={'https://unrelenting.com/'}
             city={'San Francisco'}
           />
           <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>

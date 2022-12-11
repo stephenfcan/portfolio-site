@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='min-h-screen h-full pt-28 md:pt-32 py-40'>
+    <div className='min-h-screen h-full pt-28 md:pt-32 py-40 md:flex items-center'>
       <div className='flex flex-col items-center space-y-5 md:flex-row md:items-start md:space-x-5 md:space-y-0'>
         <img className='h-60 w-60 object-contain lg:h-96 lg:w-96' src="https://user-images.githubusercontent.com/84104582/206887035-f5bff4bc-4335-414e-a9cc-f5d488a4c6fc.JPEG" alt="" />
         <div className=''>

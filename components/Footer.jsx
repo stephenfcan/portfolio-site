@@ -1,9 +1,18 @@
 import Link from 'next/link'
 import React from 'react'
+import { AiOutlineUp } from 'react-icons/ai'
 
 const Footer = () => {
   return (
     <div className='pb-10'>
+      <div className='flex items-center justify-center'>
+        <Link href='#hero'>
+          <button className='mb-10 flex flex-col text-center justify-center items-center text-white/40 hover:text-white'>
+            <AiOutlineUp size={20} />
+            <h1 className='text-sm font-extralight tracking-widest transition-all'>TOP</h1>
+          </button>
+        </Link>
+      </div>
       <div className='grid grid-cols-1 md:grid-cols-3 text-white space-y-7 md:space-y-0'>
         {/* Socials */}
         <div className='space-y-2 md:space-y-4'>
