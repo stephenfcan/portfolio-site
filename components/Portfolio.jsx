@@ -4,8 +4,8 @@ import Footer from './Footer'
 
 const Portfolio = () => {
   return (
-    <div className='min-h-screen h-full pt-28 pb-20 md:pt-32'>
-      <div className='text-white text-sm space-y-10'>
+    <div className='min-h-screen h-full pt-28 md:pt-32'>
+      <div className='text-white text-sm space-y-10 pb-20'>
 
         <div className='space-y-2'>
           {/* ServiceNow Internship */}
@@ -22,7 +22,7 @@ const Portfolio = () => {
             <img className='snap-center rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205475400-4de842f5-4138-4ecf-82a6-2ad604159da2.png" alt="" />
             <img className='snap-start rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205474850-2be4a31f-7ab3-47be-ba91-42744e1c8351.png" alt="" />
           </div>
-          <p>Led engineering teams &#40;Learning Experience Platform & Now Platform, Now Learning Training&#41; to successfully build and deploy features such as Core LXP v1.4-1.8, Partner ETA &#40;delivered $10+mm in ARR&#41;, AI Search, LaaS API, and AI/ML Recommendations.</p>
+          <p>Supported execution with engineering teams &#40;Learning Experience Platform & Now Platform, Now Learning Training&#41; to successfully build and deploy features such as Core LXP v1.4-1.8, Partner ETA, AI Search, LaaS API, and AI/ML Recommendations.</p>
         </div>
 
         <div className='space-y-2'>
@@ -65,6 +65,7 @@ const Portfolio = () => {
           <p>Consulted with CIOs and senior IT leaders on digital transformation and cybersecurity-related challenges to align them with appropriate research and solutions. Assisted with go-to-market strategy planning with Health & Life Sciences business development team.</p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
