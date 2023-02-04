@@ -6,12 +6,23 @@ const Portfolio = () => {
   return (
     <div className='min-h-screen h-full pt-28 md:pt-32'>
       <div className='text-white text-sm space-y-10 pb-20'>
+        <div className='space-y-2'>
+          {/* ServiceNow Job */}
+          <ExperienceBanner
+            date={'Jan 2023 - Present'}
+            title={'Program Manager 1 - Application Strategy'}
+            company={'ServiceNow'}
+            link={'https://www.servicenow.com/'}
+            city={'Santa Clara'}
+          />
+          <p>Just started!</p>
+        </div>
 
         <div className='space-y-2'>
           {/* ServiceNow Internship */}
           <ExperienceBanner
             date={'May 2022 - Dec 2022'}
-            title={'App Engineering Program Manager Intern'}
+            title={'Program Manager Intern - Application Engineering'}
             company={'ServiceNow'}
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
@@ -26,9 +37,26 @@ const Portfolio = () => {
         </div>
 
         <div className='space-y-2'>
+          {/* Youtube Channel */}
+          <ExperienceBanner
+            date={'Jan 2023 - Present'}
+            title={'Content Creator'}
+            company={'Youtube Channel'}
+            link={'https://www.youtube.com/@stephenan'}
+            city={'San Francisco'}
+          />
+          <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
+            <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759311-8ef5af75-764e-4b42-b8bd-e6905c7dd05c.jpg" alt="" />
+            <img className='snap-center rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759136-66994d69-13c8-4d5a-aa94-d27657abf872.jpg" alt="" />
+            <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759267-41a17d30-f2cb-4db2-b9fe-16a3a0c47d02.jpg" alt="" />
+          </div>
+          <p>Creating educational videos catered towards business and product strategy to learn from some of the most influential companies in the world.</p>
+        </div>
+
+        <div className='space-y-2'>
           {/* UNRELENTING */}
           <ExperienceBanner
-            date={'Present'}
+            date={'Aug 2021 - Present'}
             title={'Founder'}
             company={'UNRELENTING'}
             link={'https://unrelenting.com/'}
