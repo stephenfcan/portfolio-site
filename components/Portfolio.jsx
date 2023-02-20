@@ -10,7 +10,7 @@ const Portfolio = () => {
           {/* ServiceNow Job */}
           <ExperienceBanner
             date={'Jan 2023 - Present'}
-            title={'Program Manager 1 - Application Strategy'}
+            title={'Product Operations Analyst I'}
             company={'ServiceNow'}
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
