@@ -15,7 +15,7 @@ const Portfolio = () => {
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
           />
-          <p>Just started!</p>
+          <p>Responsible for conducting, analyzing, and improving product metrics such as application performance time and availability across dCX properties - Now Learning, Impact Hub, and Now Support. Accelerate product feature definition through customer feedback survey analysis. Assist with RiseUp data initiative, building data collection strategy and Adobe Analytics implementation. Managed financial operations including engineering contract procurement and API license renewals.</p>
         </div>
 
         <div className='space-y-2'>
