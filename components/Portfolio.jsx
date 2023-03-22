@@ -42,7 +42,7 @@ const Portfolio = () => {
             date={'Jan 2023 - Present'}
             title={'Content Creator'}
             company={'Youtube Channel'}
-            link={'https://www.youtube.com/@stephenan'}
+            link={'https://www.youtube.com/@stephen-an'}
             city={'San Francisco'}
           />
           <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>

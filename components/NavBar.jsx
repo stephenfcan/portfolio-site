@@ -40,7 +40,7 @@ const NavBar = () => {
             </Link>
           </div> 
           <div className='text-white/40 hover:text-white'>
-            <Link href='https://www.youtube.com/@stee-fen'>
+            <Link href='https://www.youtube.com/@stephen-an'>
               <AiFillYoutube size={30} />
             </Link>
           </div>  
