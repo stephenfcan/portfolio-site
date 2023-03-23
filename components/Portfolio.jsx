@@ -10,7 +10,7 @@ const Portfolio = () => {
           {/* ServiceNow Job */}
           <ExperienceBanner
             date={'Jan 2023 - Present'}
-            title={'Product Operations Analyst I'}
+            title={'Program Manager, Engineering & Product Ops'}
             company={'ServiceNow'}
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
@@ -22,7 +22,7 @@ const Portfolio = () => {
           {/* ServiceNow Internship */}
           <ExperienceBanner
             date={'May 2022 - Dec 2022'}
-            title={'Program Manager Intern - Application Engineering'}
+            title={'Program Manager Intern - Engineering'}
             company={'ServiceNow'}
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
