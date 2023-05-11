@@ -27,12 +27,12 @@ const Portfolio = () => {
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
           />
-          <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
+          {/* <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
             <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205474502-7a703c58-f128-49f0-90bd-6557920377f0.png" alt="" />
             <img className='snap-center rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205475054-7c47a428-13c0-44ea-84e0-3aa62ba888df.png" alt="" />
             <img className='snap-center rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205475400-4de842f5-4138-4ecf-82a6-2ad604159da2.png" alt="" />
             <img className='snap-start rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205474850-2be4a31f-7ab3-47be-ba91-42744e1c8351.png" alt="" />
-          </div>
+          </div> */}
           <p>Supported execution with engineering teams &#40;Learning Experience Platform & Now Platform, Now Learning Training&#41; to successfully build and deploy features such as Core LXP v1.4-1.8, Partner ETA, AI Search, LaaS API, and AI/ML Recommendations.</p>
         </div>
 
@@ -66,7 +66,7 @@ const Portfolio = () => {
             <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205454940-5d30e26c-be36-4963-8ea4-8e2e1af18043.png" alt="" />
             <img className='snap-start rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/205474294-34c8abed-409c-4d61-861d-3879cd1b80bb.png" alt="" />
           </div>
-          <p>Launching new clothing brand in mid-2023. Built ground-up e-commerce web application using Next.js and features global cart state and Stripe Checkout API. Currently collaborating with suppliers to navigate supply chains and apparel design/quality.</p>
+          <p>Launching new clothing brand in early-2024. Built ground-up e-commerce web application using Next.js and features global cart state and Stripe Checkout API. Currently collaborating with suppliers to navigate supply chains and apparel design/quality.</p>
         </div>
 
         <div className='space-y-2'>
