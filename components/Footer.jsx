@@ -29,7 +29,7 @@ const Footer = () => {
               </Link>
             </div>
             <div>
-              <Link href='https://www.youtube.com/@stee-fen'>
+              <Link href='https://www.youtube.com/@stephen-an'>
                 <p className='button text-sm'>Youtube</p>
               </Link>
             </div>
