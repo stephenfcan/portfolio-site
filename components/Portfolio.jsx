@@ -27,12 +27,10 @@ const Portfolio = () => {
             link={'https://www.servicenow.com/'}
             city={'Santa Clara'}
           />
-          {/* <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
-            <img className='snap-end rounded-md md:rounded-2xl' src="https://github.com/stephenfcan/dummy-app/assets/84104582/baa58376-068a-490e-a98a-556c397f3e1b" alt="" />
-            <img className='snap-end rounded-md md:rounded-2xl' src="https://github.com/stephenfcan/dummy-app/assets/84104582/b21c1811-a4bd-435b-b14e-4080adb719db" alt="" />
-            <img className='snap-end rounded-md md:rounded-2xl' src="https://github.com/stephenfcan/dummy-app/assets/84104582/6edfc6fc-6c4a-4edb-964f-ff41d83fc7d5" alt="" />
-          </div> */}
           <p>Responsible for conducting, analyzing, and improving product and engineering metrics across dCX properties &#40;Now Learning, Impact, and Now Support&#41;, improving average application performance and deployment frequency by 26% and 58% and reducing change failure rate and cycle time by 77% and 66%. Led the development and execution of the dCX Product Operations initaitive, building a Unified Support Model, dashboards, and processes to improve incident prioritization, monitoring, and remediation, resulting in a 10x improvement in MTTR and 0 aged incidents. Managed financial operations including API license renewals and the procurement and delivery of 50+ contract workers.</p>
+          <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
+            <img className='snap-end rounded-md md:rounded-2xl' src="https://github.com/stephenfcan/dummy-app/assets/84104582/64b65f39-6e29-4cca-a09a-97710f01a0c6" alt="" />
+          </div>
         </div>
 
         <div className='space-y-2'>
@@ -62,6 +60,7 @@ const Portfolio = () => {
             link={'https://www.youtube.com/@stephen-an'}
             city={'San Francisco'}
           />
+          <p>Creating educational videos catered towards business and product strategy to learn from some of the most influential companies in the world.</p>
           <div className='flex space-x-5 overflow-scroll snap-x scrollbar-hide'>
             <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759311-8ef5af75-764e-4b42-b8bd-e6905c7dd05c.jpg" alt="" />
             <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/282406561-8575bfcf-16a7-40c9-b5fb-a8472ee85c98.png" alt="" />
@@ -69,7 +68,6 @@ const Portfolio = () => {
             <img className='snap-center rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759136-66994d69-13c8-4d5a-aa94-d27657abf872.jpg" alt="" />
             <img className='snap-end rounded-md md:rounded-2xl' src="https://user-images.githubusercontent.com/84104582/216759267-41a17d30-f2cb-4db2-b9fe-16a3a0c47d02.jpg" alt="" />
           </div>
-          <p>Creating educational videos catered towards business and product strategy to learn from some of the most influential companies in the world.</p>
         </div>
         
       </div>
