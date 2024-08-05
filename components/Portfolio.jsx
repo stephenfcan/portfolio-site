@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className='space-y-2'>
           {/* Abnormal Job */}
           <ExperienceBanner
-            date={'Jan 2024 - Present'}
+            date={'Nov 2023 - Present'}
             title={'Associate Technical Program Manager'}
             company={'Abnormal Security'}
             link={'https://abnormalsecurity.com/'}
@@ -21,7 +21,7 @@ const Portfolio = () => {
         <div className='space-y-2'>
           {/* ServiceNow Job */}
           <ExperienceBanner
-            date={'Jan 2023 - Jan 2024'}
+            date={'Jan 2023 - Nov 2023'}
             title={'Associate Program Manager, Engineering & Product Ops'}
             company={'ServiceNow'}
             link={'https://www.servicenow.com/'}
