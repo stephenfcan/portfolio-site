@@ -10,10 +10,10 @@ const Portfolio = () => {
           {/* Abnormal Job */}
           <ExperienceBanner
             date={'Nov 2023 - Present'}
-            title={'Technical Program Manager'}
-            company={'Abnormal Security'}
-            link={'https://abnormalsecurity.com/'}
-            city={'San Francisco'}
+            title={'Product Technical Program Manager'}
+            company={'Abnormal AI'}
+            link={'https://abnormal.ai/'}
+            city={'Denver'}
           />
           <p>Working...</p>
         </div>

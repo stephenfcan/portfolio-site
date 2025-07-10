@@ -50,7 +50,7 @@ const Footer = () => {
         <div className='space-y-2 md:space-y-4'>
           <h1 className='text-lg font-semibold tracking-widest'>GENERAL INFO</h1>
           <div className='space-y-2'>
-            <p className='text-sm'>🌉 Based in: San Francisco</p>
+            <p className='text-sm'>⛰︎ Based in: Denver</p>
             <p className='text-sm'>🐶 Education: University of Georgia</p>
             <p className='text-sm'>🎓 Major: Management Information Systems</p>
           </div>
